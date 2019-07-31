@@ -1,0 +1,12 @@
+\documentclass{article}
+\begin{document}
+% A command with an argument
+\noindent\emph{this is emphasized text}, this is normal text\\
+% A switch with scope {}
+{\em this is emphasized text using a switch}, this is normal text\\
+% A command that need an argument without it is incorrect
+\emph this is wrongly emphasized, this is normal text\\ 
+% A switch without scope is bad
+\em this is emphasized, this is normal but wrongly emphasized because
+of the absence of a scope to limit the switch
+\end{document}
